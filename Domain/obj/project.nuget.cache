@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Z1aE266uowS4bsTHUqsIrO+pCbaf4ALJbKE0B/+vEnAt1+mGyEV3fSLiLI0M1hGzsoy7+TMW/2CemrfEJuqMhQ==",
+  "dgSpecHash": "UgQDtHFJel61OymeWmcV/OvpfqBfssjKFrFdgmocumRhlJ69KtUk1w6/rrA4YPSFr3Mbe3XZR0WZJgwNqqdsJw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alite\\Documents\\GitHub\\dotnet-angular-challenge\\Domain\\Domain.csproj",
+  "projectFilePath": "c:\\Users\\alite\\Documents\\GitHub\\dotnet-angular-challenge\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\alite\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\alite\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\alite\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.16\\microsoft.entityframeworkcore.6.0.16.nupkg.sha512",
     "C:\\Users\\alite\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.16\\microsoft.entityframeworkcore.abstractions.6.0.16.nupkg.sha512",
     "C:\\Users\\alite\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.16\\microsoft.entityframeworkcore.analyzers.6.0.16.nupkg.sha512",

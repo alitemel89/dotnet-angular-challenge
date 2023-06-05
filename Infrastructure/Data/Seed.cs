@@ -23,11 +23,20 @@ namespace Infrastructure.Data
                         UserName = "Tom",
                     },
                 };
-
-                await context.Users.AddRangeAsync(users);
-                await context.SaveChangesAsync();
             }
 
+
+            if (!context.Posts.Any())
+            {
+                var users = context.Users.ToList();
+                var posts = new List<Post>
+                {
+                   new Post { PostId = Guid.NewGuid(), Caption = "Hello this is a post from Jane", User = users[0] },
+                };
+
+                await context.Posts.AddRangeAsync(posts);
+                await context.SaveChangesAsync();
+            }
         }
     }
 }

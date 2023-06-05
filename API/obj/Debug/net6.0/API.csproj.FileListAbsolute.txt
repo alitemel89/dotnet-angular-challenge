@@ -70,3 +70,4 @@ C:\Users\alite\Documents\GitHub\dotnet-angular-challenge\API\bin\Debug\net6.0\Do
 C:\Users\alite\Documents\GitHub\dotnet-angular-challenge\API\bin\Debug\net6.0\Infrastructure.pdb
 C:\Users\alite\Documents\GitHub\dotnet-angular-challenge\API\bin\Debug\net6.0\Humanizer.dll
 C:\Users\alite\Documents\GitHub\dotnet-angular-challenge\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\alite\Documents\GitHub\dotnet-angular-challenge\API\bin\Debug\net6.0\AutoMapper.dll
