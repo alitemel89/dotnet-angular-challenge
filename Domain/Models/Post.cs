@@ -9,6 +9,6 @@ namespace Domain.Models
     {
         public Guid PostId { get; set; }
         public string Caption { get; set; }
-        public User User { get; set; }
+        public virtual User User { get; set; }
     }
 }

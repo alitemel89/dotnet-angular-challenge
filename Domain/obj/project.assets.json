@@ -695,11 +695,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\alite\\Documents\\GitHub\\dotnet-angular-challenge\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\alite\\Documents\\GitHub\\dotnet-angular-challenge\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "c:\\Users\\alite\\Documents\\GitHub\\dotnet-angular-challenge\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\alite\\Documents\\GitHub\\dotnet-angular-challenge\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\alite\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\alite\\Documents\\GitHub\\dotnet-angular-challenge\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\alite\\Documents\\GitHub\\dotnet-angular-challenge\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alite\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -709,6 +709,7 @@
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

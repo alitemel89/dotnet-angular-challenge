@@ -8,7 +8,9 @@ namespace API.DTOs
 {
     public class PostDto
     {
+        public string PostId { get; set; }
         public string Caption { get; set; }
         public string UserId { get; set; }
+        public UserDto User { get; set; }
     }
 }

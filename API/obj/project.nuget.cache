@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "UsAcub5bfBXptWWvty4eQCX9xmKUu73M/j8XXSOQ4nDMytTaHsA5Rdc6U3H/+IknMsdTpQ2ZCst1Q4ZDRCINVw==",
+  "dgSpecHash": "GesnUJstQd/YfHdVeEGCIiDom2Z4Syoxjs1QFMXz2Mt9klxIVEmeIcyzzL2NAghjJrMaWuyW8PdrtYNHbqWQZg==",
   "success": true,
   "projectFilePath": "C:\\Users\\alite\\Documents\\GitHub\\dotnet-angular-challenge\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alite\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\alite\\.nuget\\packages\\automapper.collection\\9.0.0\\automapper.collection.9.0.0.nupkg.sha512",
+    "C:\\Users\\alite\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\alite\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\alite\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\alite\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.16\\microsoft.data.sqlite.core.6.0.16.nupkg.sha512",

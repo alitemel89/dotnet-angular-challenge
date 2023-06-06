@@ -71,3 +71,5 @@ C:\Users\alite\Documents\GitHub\dotnet-angular-challenge\API\bin\Debug\net6.0\In
 C:\Users\alite\Documents\GitHub\dotnet-angular-challenge\API\bin\Debug\net6.0\Humanizer.dll
 C:\Users\alite\Documents\GitHub\dotnet-angular-challenge\API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\alite\Documents\GitHub\dotnet-angular-challenge\API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\alite\Documents\GitHub\dotnet-angular-challenge\API\bin\Debug\net6.0\AutoMapper.Collection.dll
+C:\Users\alite\Documents\GitHub\dotnet-angular-challenge\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
