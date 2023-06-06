@@ -20,4 +20,8 @@ export class ApiService {
     return this.http.post<User>(`${this.apiUrl}/users`, body, httpOptions)
       .pipe(map((response: any) => response as User));
   }
+
+  deleteUser(userId: string): Observable<void> {
+    return this.http.delete<void>(`${this.apiUrl}/users/${userId}`);
+  }
 }
