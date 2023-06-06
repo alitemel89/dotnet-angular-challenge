@@ -24,4 +24,8 @@ export class ApiService {
   deleteUser(userId: string): Observable<void> {
     return this.http.delete<void>(`${this.apiUrl}/users/${userId}`);
   }
+
+  getSingleUser(userId: string): Observable<User> {
+    return this.http.get<User>(`${this.apiUrl}/users/${userId}`);
+  }
 }
