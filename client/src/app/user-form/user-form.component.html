@@ -1,0 +1,10 @@
+<h2 class="text-white my-4 text-3xl font-bold">Create User</h2>
+<form (submit)="onSubmit()">
+  <div class="mb-4">
+    <label for="userName" class="block text-slate-100">User Name:</label>
+    <input type="text" id="userName" name="userName" [(ngModel)]="userName" class="border rounded py-2 px-3">
+  </div>
+  <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Create</button>
+</form>
+
+
