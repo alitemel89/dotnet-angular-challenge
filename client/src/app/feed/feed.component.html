@@ -1,0 +1,13 @@
+<div class="container mx-auto px-4 py-8">
+    <h2 class="text-3xl font-bold text-gray-800 mb-4">Feed</h2>
+
+    <a [routerLink]="['/users']" class="mb-4 bg-emerald-800 py-2 px-4 rounded-full text-white">Back to Users</a>
+
+    <div class="grid gap-4 grid-cols-1 md:grid-cols-2 mt-4">
+      <div *ngFor="let post of posts" class="bg-white rounded shadow p-4">
+        <h3 class="text-lg font-semibold mb-2">{{ post.caption }}</h3>
+        <p class="text-white bg-blue-800 py-1 px-2 rounded-lg shadow-lg text-center">{{ post.user.userName }}</p>
+      </div>
+    </div>
+  </div>
+  

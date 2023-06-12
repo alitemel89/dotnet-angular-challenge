@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, map } from 'rxjs';
 import { User } from './models/user.model';
+import { Post } from './models/post.model';
 
 @Injectable({
   providedIn: 'root',
@@ -27,5 +28,13 @@ export class ApiService {
 
   getSingleUser(userId: string): Observable<User> {
     return this.http.get<User>(`${this.apiUrl}/users/${userId}`);
+  }
+
+  getAllPosts(): Observable<Post[]> {
+    return this.http.get<Post[]>(`${this.apiUrl}/posts`);
+  }
+
+  createPost(post: Partial<Post>): Observable<void> {
+    return this.http.post<void>(`${this.apiUrl}/posts`, post);
   }
 }

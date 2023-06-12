@@ -1,19 +1,16 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component } from '@angular/core';
 import { ApiService } from '../api.service';
 import { HttpHeaders } from '@angular/common/http';
-
-
 
 @Component({
   selector: 'app-add-user',
   templateUrl: './add-user.component.html',
 })
-export class AddUserComponent implements OnInit {
+export class AddUserComponent {
   userName: string = '';
   userId: string = '';
   constructor(private apiService: ApiService) {}
 
-  ngOnInit(): void {}
 
   onSubmit(): void {
     if (!this.userName) {
@@ -32,7 +29,7 @@ export class AddUserComponent implements OnInit {
         console.log('User created:', response);
         // Reset the form
         this.userName = '';
-        window.location.reload()
+        window.location.reload();
       },
       error: (error) => {
         console.error(error);
